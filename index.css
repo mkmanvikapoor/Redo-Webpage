@@ -1,0 +1,417 @@
+:root {
+  --red: #e84c4c;
+  --blue: #1313b4;
+  --white: #f0f0f0;
+  --white-bg: #fff;
+  --black: #000;
+  --light-black: #172337;
+  --border-grey: #e4e7ed;
+  --brand-orange: #fb641b;
+  --brand-blue: #2874f0;
+  --brand-bbd: #2455f4;
+  --brand-refurb: #f2575b;
+  --brand-footer: #172337;
+  --brand-blue-lighter: #7accff;
+  --brand-blue-lighter1: #dfeafd;
+  --blue-lighter1: #b3d7ff;
+  --blue-lighter2: #2370f4;
+  --blue-lighter3: #2a55e5;
+  --primary-yellow: #ffe11b;
+  --primary-yellow2: #f1d27d;
+  --yellow-grade1: #fff7e1;
+  --yellow-grade2: #fef8e0;
+  --purple: #5f4eeb;
+  --offer-green: #388e3c;
+  --green-grade0: #26a541;
+  --green-grade1: #e9f2e9;
+  --green-grade2: #e6f4e8;
+  --green-grade3: #e6f3e6;
+  --green-grade4: #008c00;
+  --yellowish-orange: #ff9f00;
+  --flash-green: #11c29b;
+  --error-red: #ff6161;
+  --error-red2: #ff4343;
+  --error-red3: #ffeaed;
+  --error-red4: #dd5354;
+  --error-red5: #d23276;
+  --error-red6: #e4001e;
+  --error-red7: #e32727;
+  --grey-grade0: #fafafa;
+  --grey-grade1: #f0f0f0;
+  --grey-grade2: #e0e0e0;
+  --grey-grade3: #c2c2c2;
+  --grey-grade4: #878787;
+  --grey-grade5: #212121;
+  --grey-grade6: #d7d7d7;
+  --grey-grade7: #f9f9f9;
+  --grey-grade8: #9e9e9e;
+  --grey-grade9: #efefef;
+  --grey-grade10: #f5f5f5;
+  --grey-grade11: #aaa;
+  --grey-grade12: #dbdbdb;
+  --grey-grade13: #fbfbfb;
+  --grey-grade14: #666;
+  --grey-grade15: #f8f8f8;
+  --grey-grade16: #eee;
+  --grey-grade17: #9b9b9b;
+  --grey-grade18: #686868;
+  --grey-grade19: #eaeaea;
+  --grey-grade20: #e6e6e6;
+  --grey-grade21: #e9e9e9;
+  --grey-grade22: #d8d8d8;
+  --grey-grade23: #ffcbd0;
+  --grey-grade24: #717478;
+  --grey-grade25: #111112;
+  --grey-grade26: #f0f2f5;
+  --greyish-blue: #b8bbbf;
+  --light-greyish-blue: #f1f3f5;
+  --error-bg: #fff7f8;
+  --info-bg: #ffffe6;
+  --info-light-bg: #fffbf6;
+  --color: #f1f1f1;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-size-8: 8px;
+  --font-size-10: 10px;
+  --font-size-11: 11px;
+  --font-size-12: 12px;
+  --font-size-13: 13px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-32: 32px;
+  --font-size-default: 14px;
+  --font-size: large;
+  --position: sticky;
+  --padding: 10px;
+  --font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --text-align: center;
+  --font-style: italic;
+  --font-style: oblique;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size-20);
+  /* display: flex; */
+}
+
+.link1 a,
+.link2 a,
+.link3 a {
+  color: #d3d8df;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+}
+
+.nav-logo {
+  height: 50px;
+  width: 50px;
+
+}
+
+.nav li {
+  display: inline;
+}
+
+
+.navbutton {
+  border-radius: 10px;
+  margin: 0.3rem;
+}
+
+/* .btn-lg span {
+  padding: 0.1rem 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+} */
+
+.btn-group-lg>.btn,
+.btn-lg {
+  padding: 0.1rem 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.user {
+  list-style: none;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar {
+
+  display: flex;
+  font-size: var(--font-size);
+  position: var(--font-size);
+  padding: var(--padding);
+  text-emphasis-color: var(--green-grade4);
+  color: rgb(5, 1, 25);
+  background-color: var(--blue);
+}
+
+.top-nav {
+  width: 30vw;
+}
+
+.form-control {
+  width: 25vw;
+  height: auto;
+  display: flex;
+}
+
+.form-inline {
+  width: 25vw;
+  height: auto;
+  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
+  margin: 1.3rem;
+
+}
+
+.modal-content {
+  justify-content: center;
+  width: 50% !important;
+
+}
+
+#grab {
+  text-align: center;
+}
+
+/*SIGNUP*/
+input[type=text],
+input[type=password] {
+  width: 100%;
+  display: flex;
+  border: none;
+  background: var(--color);
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: var(--error-red3);
+  outline: none;
+}
+
+
+/* Set a style for all buttons */
+button {
+  background-color: var(--green-grade2);
+  color: white;
+  width: auto;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 1px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  background-color: #f44336;
+  width: 50%
+}
+
+.cancelbtn,
+.signupbtn .loginbtn {
+  display: inline-flex;
+  width: 40%;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* .carousel-inner {
+  width: 100%;
+  height: 260px;
+
+} */
+
+.row {
+  display: flex;
+  text-align: var(--text-align);
+  font-style: var(--font-style);
+
+}
+
+.star {
+  display: flex;
+  font-weight: 200;
+  text-align: center;
+  font-size: var(--font-size-32);
+  justify-content: center;
+}
+
+.offer {
+  display: flex;
+  font-size: var(--font-size-24);
+  text-align: var(--text-align);
+  justify-content: center;
+}
+
+.adimg {
+  display: flex;
+  width: 50vw;
+  height: 100%;
+}
+
+.ad2 {
+  display: flex;
+  background-image: url(https://media.wired.com/photos/5dfc0b15a03b9b0008afa1a0/master/w_1600%2Cc_limit/Science_books_9781328879981_hres.jpg);
+  width: 60%;
+  font-size: var(--font-size-24);
+  background-color: var(--light-black);
+  color: var(--brand-blue-lighter1);
+  text-overflow: ellipsis;
+
+}
+
+.ad1 {
+  display: flex;
+  width: 39%;
+}
+
+.footer {
+  margin-top: 10px;
+  display: flex;
+  font-size: var(--font-size-24);
+  /* text-align: center; */
+  background-color: var(--light-black);
+
+}
+
+.footer div {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.footer li {
+  color: var(--grey-grade11);
+  justify-content: center;
+  list-style: none;
+}
+
+.footer h2 {
+  color: var(--error-bg);
+  font-size: larger;
+  justify-content: center;
+}
+
+/* .link1 {
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+  }
+  .link2 {
+    display: flex;
+    text-align: center;
+    justify-content: right;
+  }
+  .link3 {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+  } */
+.ad1 {
+  text-align: justify;
+  width: 100%;
+  height: 375px;
+  font-size: x-large;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(6, 6, 66);
+  color: azure;
+  padding: 20px 50px;
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    .ad1 {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+} */
+
+.ad2 {
+
+  margin-top: 10px;
+  width: 100%;
+  height: 375px;
+  background-color: rgba(19, 2, 33, 0.352);
+}
+
+.ad2>img {
+  height: 375px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.carousel-inner img {
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 260px !important;
+}
+
+.row1 {
+  text-align: var(--text-align);
+  font-style: var(--font-style);
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (max-width: 786px) {
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.navbar :right {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+marquee {
+  text-align: canter;
+  color: orange;
+  font-size: larger;
+}
+
+
+@media (max-width:876px) {
+  .glyphicon-search:before {
+    display: none;
+  }
+
+}
